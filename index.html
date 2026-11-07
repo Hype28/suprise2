@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Garden for Brianna 💙</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="night-sky" id="stars"></div>
+    <div class="moon"></div>
+
+
+    <!-- WELCOME SCREEN -->
+    <section class="welcome-screen" id="welcomeScreen">
+
+        <div class="welcome-content">
+
+            <p class="small-text">
+                A little something for you...
+            </p>
+
+            <h1>For You, Brianna 💙</h1>
+
+            <p>
+                I made something special just for you.
+                Are you ready?
+            </p>
+
+            <button id="startButton">
+                Open Your Surprise ✨
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- MAIN GARDEN -->
+    <main class="garden-screen hidden" id="gardenScreen">
+
+        <div class="garden-heading">
+
+            <p class="small-text">
+                A little garden under the stars
+            </p>
+
+            <h1>For My Dearest Brianna</h1>
+
+            <p class="subtitle">
+                If I could give you a garden,
+                it would be filled with flowers as beautiful as you.
+            </p>
+
+        </div>
+
+
+        <!-- ANIMATED TULIPS -->
+        <div class="flower-garden">
+
+            <div class="flower flower-one">
+                <div class="stem"></div>
+                <div class="leaf left-leaf"></div>
+                <div class="leaf right-leaf"></div>
+                <div class="tulip">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="flower flower-two">
+                <div class="stem"></div>
+                <div class="leaf left-leaf"></div>
+                <div class="leaf right-leaf"></div>
+                <div class="tulip">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="flower flower-three">
+                <div class="stem"></div>
+                <div class="leaf left-leaf"></div>
+                <div class="leaf right-leaf"></div>
+                <div class="tulip">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="flower flower-four">
+                <div class="stem"></div>
+                <div class="leaf left-leaf"></div>
+                <div class="leaf right-leaf"></div>
+                <div class="tulip">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="flower flower-five">
+                <div class="stem"></div>
+                <div class="leaf left-leaf"></div>
+                <div class="leaf right-leaf"></div>
+                <div class="tulip">
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- FLOWER MESSAGE -->
+        <p class="flower-message">
+            These flowers are for you, Brianna. 🌷
+        </p>
+
+
+        <!-- MUSIC PLAYER -->
+        <div class="music-player">
+
+            <p>🎵 A song dedicated to you</p>
+
+            <p id="musicName">
+                A special song for Brianna 💙
+            </p>
+
+            <audio
+                id="backgroundMusic"
+                src="yung kai.mp3"
+                loop
+                preload="auto">
+            </audio>
+
+            <button id="musicButton" class="music-control">
+                ▶ Play Music
+            </button>
+
+        </div>
+
+
+        <!-- LOVE LETTER BUTTON -->
+        <div class="letter-section">
+
+            <p>
+                There's something else I want you to read...
+            </p>
+
+            <button id="openLetter">
+                Open My Letter 💌
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- LOVE LETTER MODAL -->
+    <div class="letter-overlay hidden" id="letterOverlay">
+
+        <div class="letter-card">
+
+            <button class="close-letter" id="closeLetter">
+                ×
+            </button>
+
+            <div class="letter-content">
+
+                <p class="letter-date">
+                    A little letter for you 💙
+                </p>
+
+                <h2>
+                    To Someone Who Makes My World More Beautiful,
+                </h2>
+
+                <div class="letter-body">
+
+                    <p>
+                        I just want to make this night a little more
+                        special for you. I may not always find the
+                        perfect words to express how I feel, but I
+                        want you to know how grateful I am to God
+                        for allowing our paths to cross again and
+                        for having you back in my life.
+                    </p>
+
+                    <p>
+                        I am genuinely happy and thankful to have you.
+                        Thank you for choosing me, even with all my
+                        flaws and imperfections. I know neither of
+                        us is perfect, and we both have things to
+                        learn and understand about each other.
+                        But I hope we can continue choosing to
+                        understand one another, communicate more
+                        openly, and be patient with each other's
+                        differences.
+                    </p>
+
+                    <p>
+                        I want us to discover more about each
+                        other's personalities, understand our
+                        flaws, and learn how to love each other
+                        better. I don't expect us to have everything
+                        figured out right away. I just hope we can
+                        grow together, face challenges together,
+                        and become better individuals while
+                        building something beautiful along the way.
+                    </p>
+
+                    <p>
+                        I want to appreciate you not just on
+                        special occasions but even in the simplest
+                        moments. I hope I can make you feel valued,
+                        loved, and appreciated in ways that words
+                        sometimes cannot express.
+                    </p>
+
+                    <p>
+                        And tonight, I wanted to give you something
+                        simple but meaningful. Just like these
+                        flowers, I hope this little surprise brings
+                        a smile to your face and reminds you that
+                        you are someone worth appreciating.
+                    </p>
+
+                    <p>
+                        Thank you for being here, for choosing me,
+                        and for giving us another chance to grow
+                        together.
+                    </p>
+
+                </div>
+
+
+                <!-- LETTER ENDING -->
+                <div class="letter-ending">
+
+                    <p>With all my love and gratitude,</p>
+
+                    <p>Yours Truly,</p>
+
+                    <h3>Johnathan Escorpion 💙</h3>
+
+                    <p class="final-message">
+                        These flowers are for you. 🌷
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
